@@ -1,0 +1,128 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-06T23:27:18.196Z",
+        "line": 8,
+        "name": "Cotar um seguro",
+        "description": "",
+        "id": "cotar-seguro-de-um-veiculo;cotar-um-seguro",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23273305100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "que eu esteja no site \"http://sampleapp.tricentis.com/101/app.php\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://sampleapp.tricentis.com/101/app.php\"",
+                  "offset": 22
+                }
+              ],
+              "location": "steps.CotarSeguro.que_eu_esteja_no_site(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7028694800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "preencher o formulario aba Enter Vehicle Data e pressionar next",
+            "match": {
+              "location": "steps.CotarSeguro.preencher_o_formulario_aba_enter_vehicle_data_e_pressionar_next()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4714024900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencher o formulario aba Enter Insurant Data e pressionar next",
+            "match": {
+              "location": "steps.CotarSeguro.preencher_o_formulario_aba_enter_insurant_data_e_pressionar_next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4215069000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencher o formulario aba Enter Product Data e pressionar next",
+            "match": {
+              "location": "steps.CotarSeguro.preencher_o_formulario_aba_enter_product_data_e_pressionar_next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2648662900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "preencher o formulario aba Select Price Option e pressionar next",
+            "match": {
+              "location": "steps.CotarSeguro.preencher_o_formulario_aba_select_price_option_e_pressionar_next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7274923900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "preencher o formulario aba Send Quote e pressionar Send",
+            "match": {
+              "location": "steps.CotarSeguro.preencher_o_formulario_aba_send_quote_e_pressionar_send()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17746126900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "verificar a mensagem Sending email success na tela",
+            "match": {
+              "location": "steps.CotarSeguro.verificar_a_mensagem_sending_email_success_na_tela()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RunAll"
+          }
+        ]
+      }
+    ],
+    "name": "Cotar seguro de um veiculo",
+    "description": "  Eu como usuario quero cotar um seguro para o meu veiculo",
+    "id": "cotar-seguro-de-um-veiculo",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/CotarSeguro.feature",
+    "tags": [
+      {
+        "name": "@RunAll",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
